@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+}
+
+#header{
+    position: relative;
+    margin: 0 auto 0;
+    /* padding-top: -4px;
+    padding-bottom: -5px; */
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+    /* overflow: auto; */
+    height: 60px;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    /* To bring a layer forword in an html page set z index to 1000 */
+    z-index: 1000;
+    /* overflow: hidden; */
+}
+
+/* #logo{
+    width: 10%;
+
+} */
+
+
+#navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    justify-content: center;
+    /* background-color: black; */
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+/* responsive */
+#mobile{
+    display:none;
+    
+}
+
+#close{
+    display: none;
+}
+
+#bar{
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    /* font-weight: 400; */
+    color: white;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover{
+    /* color: rgb(239, 137, 158); */
+    color: yellow;
+    /* transform: scale(1.05); */
+
+}
+
+.fa-cart-shopping{
+    transition: 0.3s ease;
+
+}
+
+.fa-user{
+    transition: 0.3s ease;
+}
+
+.fa-user:hover{
+    /* color:rgb(239, 137, 158) !important; */
+    color: yellow !important;
+    transform: scale(1.15);
+
+}
+
+.fa-cart-shopping:hover{
+    /* color: rgb(239, 137, 158) !important; */
+    color: yellow !important;
+    transform: scale(1.15);
+}
+
+.dd{
+    position: relative;
+    display: inline-block;
+}
+
+.dc{
+    position: absolute;
+    /* overflow: hidden; */
+    display: none;
+    background-color: #212529;
+    padding: 10px;
+    border: 1px solid white;
+    border-top: none;
+    border-radius:0 0 10px 10px;
+    right: 1px;
+    text-align: center;
+    /* margin-top: 50px; */
+   
+}
+
+.dc a{
+    position: relative;
+    display: block;
+    background-color: #212529;
+    padding-top: 0px;
+
+}
+
+.dd:hover  .dc{
+    display: block;
+}
+
+
+

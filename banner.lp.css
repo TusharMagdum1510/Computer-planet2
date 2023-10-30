@@ -1,0 +1,499 @@
+
+
+#banner{
+    display: flex;
+    background-color: #212529;
+    position: relative;
+    margin: 0 auto 0;
+    color: white;
+    /* justify-content: space-between; */
+    padding: 20px;
+    padding: left -10px; 
+    align-items: flex-start;
+    justify-content: center;
+    /* margin-top: 50px; */
+}
+
+.b1i{
+    width: 35%;
+    
+}
+
+.b2i{
+    width: 35%;
+    
+}
+
+.bt{
+    justify-content: space-between;
+    max-width: 400px;
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: sans-serif ;
+}
+
+
+
+/* Products */
+
+#computers .container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+
+    /* To break flex content in two lines. */
+    flex-wrap: wrap;
+}
+
+
+#computers{
+    text-align: center;
+    font-family: sans-serif ;
+    /* font-weight: 50 */
+    font-style: normal;
+    /* font-weight: 10; */
+    padding: 5px;
+}
+
+#computers .ig1{
+    width: 28%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    /* border-top: none; */
+    /* padding-top: 5px; */
+}
+
+#computers .ig1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ig1{
+    padding-top: 5px;
+}
+
+#computers .ig2{
+    width: 28%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    /* border-top: none; */
+    /* padding-top: 5px; */
+}
+
+#computers .ig2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ig2{
+    padding-top: 5px;
+}
+
+#computers .ig3{
+    width: 28%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    /* border-top: none; */
+    /* padding-top: 5px; */
+}
+
+#computers .ig3 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ig3{
+    padding-top: 5px;
+}
+
+#computers .ig4{
+    width: 28%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    /* border-top: none; */
+    /* padding-top: 5px; */
+}
+
+#computers .ig4 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ig4{
+    padding-top: 5px;
+}
+
+#computers .ig5{
+    width: 28%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    /* border-top: none; */
+    /* padding-top: 5px; */
+}
+
+#computers .ig5 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ig5{
+    padding-top: 5px;
+}
+
+#computers .ig6{
+    width: 28%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    /* border-top: none; */
+    /* padding-top: 5px; */
+}
+
+#computers .ig6 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ig6{
+    padding-top: 5px;
+}
+
+
+.button1{
+    text-decoration: none;
+    background-color: #0d6efd;
+    color: white;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 8px;
+}
+
+.button2{
+    text-decoration: none;
+    background-color:#0d6efd; 
+    color: white;
+    padding: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 8px;
+}
+
+.button1:hover{
+    /* transform: scale(0.5); */
+    background-color: #198754;
+    /* border: 1px solid gold; */
+   
+}
+
+.button2:hover{
+    background-color: #198754;
+}
+
+
+
+/* Banner 2/Call to action */
+
+#cta{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/cta1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    /* color: white; */
+}
+
+#cta h4{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif ;
+
+}
+
+#cta h2{
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+    margin-top: 2px;
+    font-family: sans-serif ;
+}
+
+#cta h2 span{
+    color: #ef3636;
+    /* font-weight: 100; */
+    font-size: 40px;
+    /* font-style: italic; */
+}
+
+.btncta{
+    text-decoration: none;
+    background-color: #0d6efd;
+    color: white;
+    font-family: sans-serif ;
+    /* font-weight: 20000; */
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.btncta:hover{
+    background-color: #198754;
+}
+
+/*  <!-- End of Call to action -->
+
+    <!-- Newsletter --> */
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(images/nlbg.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #212529;
+    padding: 40px;
+    margin: 40px 0;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(183, 180, 180);
+    font-family: sans-serif;
+}
+
+#newsletter p span{
+    color: #ffbd27;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+#newsletter button{
+    text-decoration: none;
+    background-color: #088178;
+    color: white;
+    /* height: 3.135rem; */
+    /* padding: 5px; */
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius:0 4px 4px 0;
+    margin-left: 0;
+    width: 30%;
+    border: none;
+    white-space: nowrap;
+    cursor: pointer;
+
+}
+
+#newsletter .nlfrmc2{
+    display: flex;
+    width: 40%;
+}
+
+/* End of Newsletter */
+
+
+/* Footer */
+
+.f1{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    background-color: #212529;
+    
+}
+
+.ft{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    /* padding-left: 20px; */
+    
+    
+}
+
+.col1{
+    justify-content: center;
+    width: 24%;
+    text-align: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: -18px; */
+    /* padding: 10px; */
+    /* padding-left: 10px; */
+}
+
+.col1 img{
+    width: 100%;
+}
+
+.col1 p{
+    color: white;
+    max-width: 300px;
+    text-align: center;
+    padding-left: 10px;
+    justify-content: center;
+    /* margin-top: -5px; */
+}
+
+.c1p{
+    display: contents;
+}
+
+.col2{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 24%; */
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.c2p{
+    display: inline-block;
+}
+
+.col2 h4{
+    color: white;
+    font-family: sans-serif;
+    /* padding-bottom: 35px; */
+}
+
+.col2 a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;  
+   
+}
+
+.col3{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* width: 24%; */
+    /* text-align: center; */
+    padding: 10px;
+    margin-bottom: 70px;
+   
+}
+
+.c3p{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.col3 h4{
+    color: white;
+    font-family: sans-serif;
+    /* padding-bottom: 19px; */
+    
+}
+
+.col3 a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.col4{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    padding: 10px;
+   
+}
+
+.c4p{
+    display: inline-block;
+}
+
+
+
+.col4 img{
+    width: 9%;
+    padding-right: 4px;
+    vertical-align: middle;
+   
+    
+}
+
+.col4 h4{
+    color: white;
+    font-family: sans-serif;
+    /* text-align: center; */
+    /* padding-bottom: 20px; */
+}
+
+.col4 p{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.exft{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    justify-items: center;
+    /* padding-left: 40px; */
+    
+}
+
+.exft img{
+    width: 8%;
+    cursor: pointer;
+    vertical-align: bottom;
+    padding-top: 15px;
+    
+}
+
+.cp h4{
+    vertical-align: middle;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    /* text-align: center; */
+}

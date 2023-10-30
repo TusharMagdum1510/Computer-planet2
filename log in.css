@@ -1,0 +1,120 @@
+#lgbg {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: center top;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+    display: flex;
+    
+
+}
+
+#lgbg .lgcard {
+
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    /* margin-left: 50px; */
+}
+
+.lglogo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.lglogo img {
+    width: 7%;
+    cursor: pointer;
+    padding: 2px;
+}
+
+.lgc {
+    background-color: #21252957;
+    backdrop-filter: blur(3px);
+    border: 1px solid white;
+    /* box-shadow: outset 0 0 2000px rgba(255, 255, 255, 0.5); */
+    border-radius: 13px;
+
+}
+
+.lgc p{
+    font-weight: 600;
+}
+
+.lgbtn{
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 8px 48px;
+    border-radius: 8px;
+    margin-top: 30px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+ 
+}
+
+.lgbtn:hover{
+    background-color: white;
+    outline: none;
+    color: #212529;
+    font-weight: 600;
+}
+
+.pep{
+    margin-bottom: 40px;
+}
+
+.lgeml{
+    border: 1px solid white;
+    color: #444545;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: larger;
+    height: 46px;
+    width: 80%;
+}
+
+.lgp{
+    border: 1px solid white;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: larger;
+    height: 46px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width:500px){
+    .lgc {
+        background-color: #21252957;
+        backdrop-filter: blur(3px);
+        border: 1px solid white;
+        /* box-shadow: outset 0 0 2000px rgba(255, 255, 255, 0.5); */
+        border-radius: 13px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+}
